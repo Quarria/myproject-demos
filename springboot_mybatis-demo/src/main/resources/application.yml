@@ -1,0 +1,15 @@
+#公共配置与profiles选择无关
+mybatis:
+  typeAliasesPackage: com.gu.entity
+  mapperLocations: classpath:mapper/*.xml
+  configLocations: classpath:mybatis-config.xml
+  
+#开发配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_db?characterEncoding=utf8&useSSL=true
+    username: root
+    password: 123456
+    
+#    type: com.alibaba.druid.pool.DruidDataSource
