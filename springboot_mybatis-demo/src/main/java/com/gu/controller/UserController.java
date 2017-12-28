@@ -12,7 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.gu.entity.User;
 import com.gu.service.UserService;
-
+/**
+ * controller类
+ * @author quarria
+ *
+ */
 @Controller
 @EnableAutoConfiguration
 @RequestMapping("/user")
