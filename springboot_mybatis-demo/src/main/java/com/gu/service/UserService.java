@@ -4,8 +4,8 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.gu.dao.UserMapper;
 import com.gu.entity.User;
+import com.gu.mapper.UserMapper;
 
 @Service("userService")
 public class UserService {

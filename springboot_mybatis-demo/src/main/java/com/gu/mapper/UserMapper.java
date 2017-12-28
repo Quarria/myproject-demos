@@ -1,4 +1,4 @@
-package com.gu.dao;
+package com.gu.mapper;
 
 import com.gu.entity.User;
 
